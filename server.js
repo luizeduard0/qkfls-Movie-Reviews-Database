@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 const bodyParser = require('body-parser')
 require('dotenv').config()
-const strings = require("/app/utils/strings.json");
+const strings = require("./utils/strings.json");
 const { CloudantV1 } = require('@ibm-cloud/cloudant');
 const { BasicAuthenticator } = require('ibm-cloud-sdk-core');
 const uuid = require('uuid');
